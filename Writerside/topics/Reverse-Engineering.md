@@ -39,7 +39,7 @@ Decompile it by Ghidra and check main function.<br />
 
 ![Image](../images/crackGhidra.png)
 
-It's make encrypt for my input.<br />
+It's makes my input encrypted.<br />
 First check the correct encrypted value.<br />
 Check the assembly and set breakpoint before memcpy.<br />
 
