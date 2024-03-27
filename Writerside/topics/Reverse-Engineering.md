@@ -96,5 +96,28 @@ SUCCESS! Here is your flag: picoCTF{sample_flag}
 ```
 
 ## WinAntiDebug 0x100
+This challenge needs bypassing Windows Anti Debug.<br />
+The challenge file detect if debugger is present or not by calling kernel32.dll::IsDebuggerPresent.<br />
+
+![Image](../images/WinAntiDBGOV.png)
+
+To bypass the debugger presenting, just change return address that exists after detect debugger.<br />
+
+![Image](../images/winAntiDBG11.png)
+
+Debug with x32dbg<br />
+
+![Image](../images/WinAntiDBGx32DBG.png)
 
 ## WinAntiDebug 0x200
+This challenge is similar to WinAntiDebug 0x100.
+
+![Image](../images/winAntiDBG2OV.png)
+
+Change the condition of the result of kernel32.dll::IsDebuggerPresent<br />
+
+![Image](../images/winAntiDBG2Ghidra.png)
+
+Debug with x32dbg (required administer)<br />
+
+![Image](../images/winAntiDBG2Res.png)
