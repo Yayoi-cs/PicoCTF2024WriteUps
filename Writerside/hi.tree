@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi" name="Help Instance"
+                 start-page="OverView.md">
+
+    <toc-element topic="OverView.md"/>
+    <toc-element topic="General-Skills.md"/>
+    <toc-element topic="Web-Exploitation.md"/>
+    <toc-element topic="Cryptography.md"/>
+    <toc-element topic="Reverse-Engineering.md"/>
+    <toc-element topic="Forensics.md"/>
+    <toc-element topic="Binary.md"/>
+</instance-profile>
